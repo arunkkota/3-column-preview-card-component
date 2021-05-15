@@ -1,0 +1,82 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+div.full-box {
+  position: absolute;
+  top: 150px;
+  left: 250px;
+
+}
+
+.first-box{
+  width: 300px;
+  height: 500px;
+  background-color:hsl(31, 77%, 52%);
+}
+
+.second-box {
+  width: 300px;
+  height: 500px;
+  background-color:hsl(184, 100%, 22%);
+  position: relative;
+  left:300px;
+  bottom:500px;
+
+
+}
+.third-box {
+  width: 300px;
+  height: 500px;
+  background-color:hsl(179, 100%, 13%);
+  position:relative;
+  left:600px;
+  bottom: 1000px;
+
+}
+
+.style-bsd {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+  margin-left: 30px;
+  color:hsla(0, 0%, 100%, 0.75);
+  margin-bottom: 0px;
+}
+
+.style-deca {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.middle-text-box{
+  padding:30px;
+  padding-top:10px;
+  color:hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin-top:0px;
+  line-height: 1.6;
+}
+
+img {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+button {
+  margin-top:80px;
+  margin-left: 30px;
+  border: none;
+  padding:15px 30px;
+  text-align: center;
+  /* margin:4px 2px; */
+  border-radius:20px;
+}
+
+.button-color-one {
+  color:hsl(31, 77%, 52%);
+}
+.button-color-two {
+  color: hsl(184, 100%, 22%);
+}
+.button-color-three {
+  color:hsl(179, 100%, 13%);
+}
